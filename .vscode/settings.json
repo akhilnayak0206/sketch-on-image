@@ -4,5 +4,8 @@
         "dodgerblue",
         "imgref",
         "konva"
+    ],
+    "cSpell.ignoreWords": [
+        "dependencies"
     ]
 }

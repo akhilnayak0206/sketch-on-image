@@ -18,8 +18,13 @@ This ReactJS website has following features:
  npm start
 
  # Make build file
- npm build
+ npm run build
+
+ # Deploy website using github
+ npm run deploy
 ```
+
+_Note: Remember to change `homepage` inside package.json to this format: `"https://{username}.github.io/{repo-name}"` otherwise you won't be able to deploy. Before running `npm run deploy` remember that running `npm build` is necessary_
 
 ## Project Info
 
