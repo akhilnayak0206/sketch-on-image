@@ -1,0 +1,25 @@
+.bottom-button {
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.fixed-button {
+  position: fixed;
+  bottom: 25px;
+  width: 100%;
+}
+
+.bottom-button button {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1em;
+  background-color: #1cbad6;
+  border: 1px solid #1cbad6;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.bottom-button button:hover {
+  border: 1px solid #0424b1;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.8);
+}
